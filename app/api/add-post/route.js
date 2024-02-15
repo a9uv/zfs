@@ -14,5 +14,5 @@ export async function POST(request) {
       author: { create: { name: "ryan" } },
     },
   });
-  return NextResponse.json({ data: res });
+  return NextResponse.json({ data: result });
 }
