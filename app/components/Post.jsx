@@ -7,7 +7,6 @@ export default function Post({ id, title, content, authorName }) {
             <h4>{title}</h4>
             <p>{content}</p>
             <DeletePostButton postId={id} />
-
             </div>
     )
 }

@@ -35,7 +35,7 @@ export default function AddPost() {
 
         if (res.status === 200) {
             alert("Post created successfully!");
-            router.refresh()
+            router.replace('/')
         } else {
             alert("Post creation failed!");
         }
